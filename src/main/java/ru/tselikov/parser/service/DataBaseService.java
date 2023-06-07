@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface DataBaseService {
     void insertData(List<Laptop> laptops) throws SQLException;
+
     List<Laptop> selectAllData() throws SQLException;
 }
